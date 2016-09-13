@@ -8,6 +8,7 @@ public class Test {
 
     public static void main(String[] args) {
 
+        System.out.println('b' + 'c');
         int xC = 3;
         int [] arrayC = {1,2,3};
         System.out.println("xC before: " + xC);
@@ -39,4 +40,5 @@ public class Test {
         System.out.println();
 
     }
+
 }
