@@ -10,7 +10,7 @@ public class Percolation {
 
     public enum Site {
         BLOCKED(0),
-        EMPTY(1),
+        OPEN(1),
         FULL(2);
 
         private int value;
@@ -24,7 +24,7 @@ public class Percolation {
         }
     }
 
-    private int [][] grid;
+    private Site [][] grid;
     private WeightedQuickUnionUF wQUUF;
 
     /**
@@ -35,20 +35,48 @@ public class Percolation {
         if (n <= 0) {
             throw  new IllegalArgumentException("elements must be greater than zero");
         }
-        grid = new int[n][n];
+        grid = new Site[n][n];
         wQUUF = new WeightedQuickUnionUF(n*n+2);
         // Connect virtual nodes on the top and on the bottom
-        for (int col = 1; col <= n; col ++) {
-            wQUUF.union(0, col);
-            wQUUF.union(n*n+1, col + ((n - 1) * n));
-        }
+//        for (int col = 1; col <= n; col ++) {
+//            wQUUF.union(0, col);
+//            wQUUF.union(n*n+1, col + ((n - 1) * n));
+//        }
 
     }
 
     public void open(int row, int column) {
         validate(row, column);
-        if (grid[row - 1][column - 1] == Site.BLOCKED.getValue()) {
+        int arrayIndex = row * column;
+        int rowIndex = row - 1;
+        int colIndex = column - 1;
+        Site currentSite = grid[rowIndex][colIndex];
+        if (currentSite.equals(Site.BLOCKED)) {
+            // Top Connection
+            if (rowIndex == 0) {
+                wQUUF.union(arrayIndex, 0);
+                currentSite = Site.FULL;
+            } else if (!grid[rowIndex - 1][colIndex].equals(Site.BLOCKED)){
+                wQUUF.union(arrayIndex, rowIndex * grid.length + column);
+                if (grid[rowIndex - 1][colIndex].equals(Site.FULL)) {
+                    currentSite = Site.FULL;
+                }
+            }
+            // Left connection
+            if (colIndex > 0 && !grid[rowIndex][colIndex - 1].equals(Site.BLOCKED)) {
+                wQUUF.union(arrayIndex, arrayIndex - 1);
+                if (grid[rowIndex][colIndex - 1].equals(Site.FULL)) {
+                    currentSite = Site.FULL;
+                }
+            }
+            // Right connection
+            // Bottom connection
 
+            if (currentSite.equals(Site.BLOCKED)) {
+                grid[rowIndex][colIndex] = Site.OPEN;
+            } else {
+                grid[rowIndex][colIndex] = Site.FULL;
+            }
         }
     }
 
