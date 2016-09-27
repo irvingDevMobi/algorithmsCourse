@@ -8,23 +8,7 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
  */
 public class Percolation {
 
-    public enum Site {
-        BLOCKED(0),
-        OPEN(1),
-        FULL(2);
-
-        private int value;
-
-        Site(int value) {
-            this.value = value;
-        }
-
-        public int getValue() {
-            return value;
-        }
-    }
-
-    private Site [][] grid;
+    private boolean [][] grid;
     private WeightedQuickUnionUF wQUUF;
 
     /**
@@ -35,49 +19,73 @@ public class Percolation {
         if (n <= 0) {
             throw  new IllegalArgumentException("elements must be greater than zero");
         }
-        grid = new Site[n][n];
+        grid = new boolean[n][n];
         wQUUF = new WeightedQuickUnionUF(n*n+2);
-        // Connect virtual nodes on the top and on the bottom
-//        for (int col = 1; col <= n; col ++) {
-//            wQUUF.union(0, col);
-//            wQUUF.union(n*n+1, col + ((n - 1) * n));
-//        }
-
     }
 
     public void open(int row, int column) {
         validate(row, column);
-        int arrayIndex = row * column;
         int rowIndex = row - 1;
         int colIndex = column - 1;
-        Site currentSite = grid[rowIndex][colIndex];
-        if (currentSite.equals(Site.BLOCKED)) {
-            // Top Connection
-            if (rowIndex == 0) {
-                wQUUF.union(arrayIndex, 0);
-                currentSite = Site.FULL;
-            } else if (!grid[rowIndex - 1][colIndex].equals(Site.BLOCKED)){
-                wQUUF.union(arrayIndex, rowIndex * grid.length + column);
-                if (grid[rowIndex - 1][colIndex].equals(Site.FULL)) {
-                    currentSite = Site.FULL;
-                }
-            }
-            // Left connection
-            if (colIndex > 0 && !grid[rowIndex][colIndex - 1].equals(Site.BLOCKED)) {
-                wQUUF.union(arrayIndex, arrayIndex - 1);
-                if (grid[rowIndex][colIndex - 1].equals(Site.FULL)) {
-                    currentSite = Site.FULL;
-                }
-            }
-            // Right connection
-            // Bottom connection
+        int arrayIndex = rowIndex * grid.length + column;
+        if (grid[rowIndex][colIndex])
+            return;
+        grid[rowIndex][colIndex] = true;
+        // Top Connection
+        if (rowIndex == 0) {
+            wQUUF.union(arrayIndex, 0);
+        } else if (grid[rowIndex - 1][colIndex]){
+            wQUUF.union(arrayIndex, (rowIndex - 1) * grid.length + column);
+        }
+        // Left connection
+        if (colIndex > 0 && grid[rowIndex][colIndex - 1]) {
+            wQUUF.union(arrayIndex, arrayIndex - 1);
+        }
+        // Right connection
+        if (colIndex < grid.length - 1 && grid[rowIndex][colIndex + 1]) {
+            wQUUF.union(arrayIndex, arrayIndex + 1);
+        }
+        // Bottom connection
+        if (rowIndex == grid.length - 1) {
+            wQUUF.union(arrayIndex, grid.length * grid.length + 1);
+        } else if (grid[rowIndex + 1][colIndex]) {
+            wQUUF.union(arrayIndex, row * grid.length + column);
+        }
+    }
 
-            if (currentSite.equals(Site.BLOCKED)) {
-                grid[rowIndex][colIndex] = Site.OPEN;
-            } else {
-                grid[rowIndex][colIndex] = Site.FULL;
+    public boolean isOpen(int row, int column) {
+        validate(row, column);
+        return grid[row - 1][column - 1];
+    }
+
+    public boolean isFull(int row, int column) {
+        validate(row, column);
+        int arrayIndex = (row -1) * grid.length + column;
+        return wQUUF.connected(arrayIndex, 0);
+    }
+
+    public boolean percolates() {
+        return wQUUF.connected(0, grid.length * grid.length + 1);
+    }
+
+    /**
+     * Return number of elements open or full
+     * @return
+     */
+    public int getOpenSites() {
+        int openSites = 0;
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid.length; col++) {
+                if (grid[row][col]) {
+                    openSites++;
+                }
             }
         }
+        return openSites;
+    }
+
+    public double getOpenSitesAverage() {
+        return getOpenSites() / (grid.length * grid.length);
     }
 
     private void validate(int ... indexes) {
@@ -89,10 +97,34 @@ public class Percolation {
         }
     }
 
+    public void print() {
+        for (int row = 0; row < grid.length; row++) {
+            System.out.println();
+            for (int col = 0; col < grid.length; col++) {
+                if (isFull(row + 1, col + 1)) {
+                    System.out.print("-");
+                } else if (grid[row][col]) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("*");
+                }
+            }
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         int n = 5;
         Percolation percolation = new Percolation(n);
         int index = 0;
+        percolation.open(2, 3);
+        percolation.open(3, 4);
+        percolation.open(3, 3);
+        percolation.open(5, 3);
+        percolation.open(1, 2);
+        percolation.open(3, 5);
+        percolation.open(1, 3);
+
         System.out.println("---- " + index + "[" + percolation.wQUUF.find(index) + "]----- ");
         index++;
         for (int i = 0; i < n; i ++) {
@@ -103,5 +135,7 @@ public class Percolation {
             System.out.println();
         }
         System.out.println("---- " + index + "[" + percolation.wQUUF.find(index) + "]----- ");
+        percolation.print();
+        System.out.println("OPEN: " + percolation.getOpenSites());
     }
 }
