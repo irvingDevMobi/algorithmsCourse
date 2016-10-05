@@ -68,26 +68,6 @@ public class Percolation {
         return wQUUF.connected(0, grid.length * grid.length + 1);
     }
 
-    /**
-     * Return number of elements open or full
-     * @return
-     */
-    public int getOpenSites() {
-        int openSites = 0;
-        for (int row = 0; row < grid.length; row++) {
-            for (int col = 0; col < grid.length; col++) {
-                if (grid[row][col]) {
-                    openSites++;
-                }
-            }
-        }
-        return openSites;
-    }
-
-    public double getOpenSitesAverage() {
-        return getOpenSites() / (grid.length * grid.length);
-    }
-
     private void validate(int ... indexes) {
         for (int index : indexes) {
             if (index <= 0 || index > grid.length) {
@@ -97,7 +77,7 @@ public class Percolation {
         }
     }
 
-    public void print() {
+    private void print() {
         for (int row = 0; row < grid.length; row++) {
             System.out.println();
             for (int col = 0; col < grid.length; col++) {
@@ -111,31 +91,5 @@ public class Percolation {
             }
         }
         System.out.println();
-    }
-
-    public static void main(String[] args) {
-        int n = 5;
-        Percolation percolation = new Percolation(n);
-        int index = 0;
-        percolation.open(2, 3);
-        percolation.open(3, 4);
-        percolation.open(3, 3);
-        percolation.open(5, 3);
-        percolation.open(1, 2);
-        percolation.open(3, 5);
-        percolation.open(1, 3);
-
-        System.out.println("---- " + index + "[" + percolation.wQUUF.find(index) + "]----- ");
-        index++;
-        for (int i = 0; i < n; i ++) {
-            for (int j = 0; j < n; j++) {
-                System.out.print(index + "[" + percolation.wQUUF.find(index) + "] ");
-                index++;
-            }
-            System.out.println();
-        }
-        System.out.println("---- " + index + "[" + percolation.wQUUF.find(index) + "]----- ");
-        percolation.print();
-        System.out.println("OPEN: " + percolation.getOpenSites());
     }
 }
