@@ -49,7 +49,7 @@ public class PercolationStats {
         return openSites;
     }
     private double getOpenSitesAverage(Percolation percolation, int n) {
-        return getOpenSites(percolation, n) / (float)(n * n);
+        return getOpenSites(percolation, n) / (float) (n * n);
     }
 
     public double mean() {

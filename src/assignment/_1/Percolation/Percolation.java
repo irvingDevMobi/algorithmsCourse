@@ -34,7 +34,7 @@ public class Percolation {
         // Top Connection
         if (rowIndex == 0) {
             wQUUF.union(arrayIndex, 0);
-        } else if (grid[rowIndex - 1][colIndex]){
+        } else if (grid[rowIndex - 1][colIndex]) {
             wQUUF.union(arrayIndex, (rowIndex - 1) * grid.length + column);
         }
         // Left connection
