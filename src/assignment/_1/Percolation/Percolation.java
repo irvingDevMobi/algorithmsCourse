@@ -47,7 +47,9 @@ public class Percolation {
         }
         // Bottom connection
         if (rowIndex == grid.length - 1) {
-            wQUUF.union(arrayIndex, grid.length * grid.length + 1);
+            if (isFull(row, column)) {
+                wQUUF.union(arrayIndex, grid.length * grid.length + 1);
+            }
         } else if (grid[rowIndex + 1][colIndex]) {
             wQUUF.union(arrayIndex, row * grid.length + column);
         }
@@ -65,8 +67,16 @@ public class Percolation {
     }
 
     public boolean percolates() {
-        return wQUUF.connected(0, grid.length * grid.length + 1);
+        int endCell = grid.length * grid.length + 1;
+        if (wQUUF.connected(0, endCell))
+            return true;
+        for (int i = 1; i <= grid.length; i++) {
+            if (isOpen(grid.length, grid.length + 1 - i) && wQUUF.connected(0, endCell - i))
+                return true;
+        }
+        return false;
     }
+
 
     private void validate(int ... indexes) {
         for (int index : indexes) {
