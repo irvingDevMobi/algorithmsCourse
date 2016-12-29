@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Scanner;
 import java.io.FileReader;
 import java.io.FileNotFoundException;
@@ -24,16 +27,20 @@ public class Practice {
 		five = resize(five);
 		System.out.println("Size:" + five.length);
 		
-		if (areEquals(args[0], args[1]))
+		if (args.length > 1)
 		{
-			System.out.println("They are same");
-		} else
-		{
-			System.out.println("They are different");
+			if (areEquals(args[0], args[1]))
+			{
+				System.out.println("They are same");
+			} else
+			{
+				System.out.println("They are different");
+			}
 		}
-		double [] array = { 6, 8, 8, 9, 7, 10, 8};
+		double [] array = { 6, 8, 8, 9, 7, 7, 7, 10, 7, 8};
 		System.out.println("Sum: \t" + sum(array));
 		System.out.println("Average: \t" + average(array));
+		System.out.println("Mode: \t" + mode(array));
 	}
 	
 	public static boolean isPostfixOf(String str1, String str2)
@@ -103,5 +110,35 @@ public class Practice {
 	public static double average(double [] array)
 	{
 		return sum(array)/array.length;
+	}
+	
+	public static double mode(double [] array)
+	{
+		HashMap<Double, Integer> map = new HashMap<>();
+		map.put(array[0], 1);
+		for (int i = 1; i < array.length; i++)
+		{
+			if (map.containsKey(array[i])) 
+			{
+				map.put(array[i], map.get(array[i]) + 1);
+			} else {
+				map.put(array[i], 1);
+			}
+		}
+		
+		int max = 0;
+		double mode = array[0];
+		
+		Iterator iterator = map.entrySet().iterator();
+		while(iterator.hasNext())
+		{
+			Map.Entry<Double, Integer> pair = (Map.Entry) iterator.next();
+			if (pair.getValue() > max)
+			{
+				max = pair.getValue();
+				mode = pair.getKey();
+			}
+		}
+		return mode;	
 	}
 }
