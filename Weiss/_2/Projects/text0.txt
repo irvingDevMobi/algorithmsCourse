@@ -1,0 +1,3 @@
+El motor eléctrico es un dispositivo que transforma la energía eléctrica en energía mecánica por 
+medio de la acción de los campos magnéticos generados en sus bobinas. Son máquinas eléctricas 
+rotatorias compuestas por un estator y un rotor.
