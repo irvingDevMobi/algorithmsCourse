@@ -201,14 +201,29 @@ public class Practice {
 		return sum;
 	}
 	
+	public static double sum(double [][] matrix)
+	{
+		double sum = 0;
+		for(double [] array : matrix)
+		{
+			sum += sum(array);
+		}
+		return sum;
+	}
+	
 	public static double average(double [] array)
 	{
 		return sum(array)/array.length;
 	}
 	
+	public static double average(double [][] matrix)
+	{
+		return sum(matrix)/(matrix.length * matrix[0].length);
+	}
+	
 	public static double mode(double [] array)
 	{
-		HashMap<Double, Integer> map = new HashMap<>();
+		Map<Double, Integer> map = new HashMap<>();
 		map.put(array[0], 1);
 		for (int i = 1; i < array.length; i++)
 		{
@@ -219,14 +234,34 @@ public class Practice {
 				map.put(array[i], 1);
 			}
 		}
-		
-		int max = 0;
-		double mode = array[0];
-		
-		Iterator iterator = map.entrySet().iterator();
-		while(iterator.hasNext())
+		return max(map, array[0]);	
+	}
+	
+	public static double mode(double [][] matrix)
+	{
+		Map<Double, Integer> map = new HashMap<>();
+		for (int i = 0; i < matrix.length; i++)
 		{
-			Map.Entry<Double, Integer> pair = (Map.Entry) iterator.next();
+			for (int j = 0; j < matrix[i].length; j++)
+			{
+				if (map.containsKey(matrix[i][j]))
+				{
+					map.put(matrix[i][j], map.get(matrix[i][j]) + 1);
+				} else {
+					map.put(matrix[i][j], 1);
+				}
+			}
+		}
+		return max(map, matrix[0][0]);
+	}
+	
+	private static double max(Map<Double, Integer> map, double initValue)
+	{
+		int max = 0;
+		double mode = initValue;
+		
+		for(Map.Entry<Double, Integer> pair : map.entrySet())
+		{
 			if (pair.getValue() > max)
 			{
 				max = pair.getValue();

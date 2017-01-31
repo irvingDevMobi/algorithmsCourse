@@ -17,12 +17,11 @@ public class DoubleData{
 			{
 				numbers.add(scanner.nextDouble());		
 			}
-			System.out.println("Size: " +  numbers.size());
+			System.out.println("Numbers: " +  numbers.size());
 			double [] array = new double[numbers.size()];
 			for(int i = 0; i < array.length; i++)
 			{
 				array[i] = numbers.get(i);
-				System.out.println(array[i]);
 			}
 			System.out.println("Sum: " + Practice.sum(array));
 			System.out.println("Average: " + Practice.average(array));
