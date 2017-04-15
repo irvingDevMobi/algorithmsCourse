@@ -4,6 +4,7 @@ import _2.Practice;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.NoSuchElementException;
 import java.io.FileReader;
 import java.io.FileNotFoundException;
@@ -26,7 +27,7 @@ public class DoubleMatrixData {
 					size = line.split(" ").length; 
 				}
 				double [] array = new double[size];
-				Scanner scannerLine = new Scanner(line);
+				Scanner scannerLine = new Scanner(line).useLocale(Locale.US);
 				for (int i = 0; i < size; i++)
 				{
 					if (scannerLine.hasNextDouble()) 
