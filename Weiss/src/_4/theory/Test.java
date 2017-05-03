@@ -47,7 +47,9 @@ public class Test
 		Base [] arr3 = new Derived[2];
 		
 		// ERROR: java.lang.ArrayStoreException
-        arr3[0] = arr3[1] = new Base();
+        // arr3[0] = arr3[1] = new Base();
+		
+		DerivedNoAbstract objectDNA = new DerivedNoAbstract(1);
 		
 	}
 }
