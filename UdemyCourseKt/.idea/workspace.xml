@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="308a5c96-0206-4fca-9767-53b6242096a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UdemyCourseKt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/irving/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/irving/arrays/Anagram.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mx/irving/arrays/AnagramJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UdemyCourse/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UdemyCourse/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UdemyCourse/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UdemyCourse/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UdemyCourse/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UdemyCourse/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UdemyCourse/UdemyCourse.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UdemyCourse/src/mx/irving/arrays/Anagram.kt" beforeDir="false" />
-    </list>
+    <list default="true" id="308a5c96-0206-4fca-9767-53b6242096a9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +13,7 @@
     <session id="-1681814292">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="2" />
