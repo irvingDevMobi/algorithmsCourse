@@ -45,6 +45,7 @@ def isAnagramV2(s1, s2):
             return False
     return True
 
+
 s1 = "DOGS R"
 s2 = "DOGS "
 s3 = "GODS"
