@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fa9b8e86-2109-46bf-9ae9-1b73a619504d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UdemyCourseKt/META-INF/UdemyCourseKt.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UdemyCourseKt/META-INF/UdemyCourseKt.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.6174905">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -24,7 +25,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
+                <state relative-caret-position="17">
                   <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
                 </state>
               </provider>
@@ -33,8 +34,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/PairSum.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                <state relative-caret-position="459">
+                  <caret line="28" selection-start-line="28" selection-end-line="28" />
                   <folding>
                     <element signature="e#26#71#0" expanded="true" />
                   </folding>
@@ -45,8 +46,21 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                <state relative-caret-position="577">
+                  <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="9384">
+                  <caret line="594" column="19" selection-start-line="594" selection-start-column="19" selection-end-line="594" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#23587#23588#0" expanded="true" />
+                    <element signature="e#23641#23642#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -54,7 +68,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/Anagram.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
+                <state relative-caret-position="476">
                   <caret line="28" selection-start-line="28" selection-end-line="28" />
                 </state>
               </provider>
@@ -63,7 +77,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/AnagramJ.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
+                <state relative-caret-position="68">
                   <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
                 </state>
               </provider>
@@ -76,11 +90,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#21#103#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="286">
+                  <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -88,7 +99,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/arrays/PairSumTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
+                <state relative-caret-position="374">
                   <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
                 </state>
               </provider>
@@ -178,9 +189,10 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550156195395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550761100230" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -202,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindMissingElementTest.test">
+  <component name="RunManager" selected="JUnit.FindMissingElementTest.testFinder3">
     <configuration name="FindMissingElementTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyCourseKt" />
       <extension name="coverage">
@@ -219,7 +231,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMissingElementTest.testFinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyCourseKt" />
       <extension name="coverage">
         <pattern>
@@ -228,13 +240,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.PairSumTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.FindMissingElementTest" />
+      <option name="METHOD_NAME" value="testFinder" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairSumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindMissingElementTest.testFinder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyCourseKt" />
       <extension name="coverage">
         <pattern>
@@ -243,8 +256,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.PairSumTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.FindMissingElementTest" />
+      <option name="METHOD_NAME" value="testFinder2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMissingElementTest.testFinder3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyCourseKt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.FindMissingElementTest" />
+      <option name="METHOD_NAME" value="testFinder3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -266,26 +295,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mx.irving.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="UdemyCourseKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="mx.irving.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindMissingElementTest.testFinder3" />
+        <item itemvalue="JUnit.FindMissingElementTest.testFinder2" />
+        <item itemvalue="JUnit.FindMissingElementTest.testFinder" />
         <item itemvalue="JUnit.FindMissingElementTest.test" />
         <item itemvalue="JUnit.PairSumTest.testSol" />
-        <item itemvalue="JUnit.PairSumTest" />
-        <item itemvalue="JUnit.PairSumTest.test" />
-        <item itemvalue="Kotlin.mx.irving.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -346,24 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PairSumTest_test - 2019.02.06 at 09h 13m 47s.xml">
-      <configuration name="PairSumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PairSumTest_test - 2019.02.06 at 09h 14m 44s.xml">
-      <configuration name="PairSumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PairSumTest_test - 2019.02.06 at 09h 19m 17s.xml">
-      <configuration name="PairSumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PairSumTest_test - 2019.02.06 at 09h 24m 02s.xml">
-      <configuration name="PairSumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PairSumTest_test - 2019.02.06 at 09h 24m 59s.xml">
-      <configuration name="PairSumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PairSumTest_test - 2019.02.11 at 09h 00m 34s.xml">
-      <configuration name="PairSumTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PairSumTest - 2019.02.11 at 09h 00m 54s.xml">
       <configuration name="PairSumTest" configurationId="JUnit" />
     </history-entry>
@@ -376,12 +374,30 @@
     <history-entry file="FindMissingElementTest_test - 2019.02.13 at 09h 27m 03s.xml">
       <configuration name="FindMissingElementTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FindMissingElementTest_testFinder - 2019.02.19 at 08h 54m 32s.xml">
+      <configuration name="FindMissingElementTest.testFinder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 18m 57s.xml">
+      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 23m 05s.xml">
+      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 26m 24s.xml">
+      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 28m 53s.xml">
+      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 29m 42s.xml">
+      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1316" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26530612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27315542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -426,66 +442,125 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/PairSumKtTest.kt" />
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_ArraysJvm.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="1691" column="58" selection-start-line="1691" selection-start-column="58" selection-end-line="1691" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="183" column="80" selection-start-line="183" selection-start-column="80" selection-end-line="183" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="461" column="24" selection-start-line="461" selection-start-column="24" selection-end-line="461" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/irving/Main.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="17">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/Anagram.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/AnagramJ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/PairSum.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="459">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#26#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/arrays/PairSumTest.kt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="9384">
+          <caret line="594" column="19" selection-start-line="594" selection-start-column="19" selection-end-line="594" selection-end-column="19" />
+          <folding>
+            <element signature="e#23587#23588#0" expanded="true" />
+            <element signature="e#23641#23642#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/Anagram.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#21#103#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/AnagramJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/arrays/PairSumTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="577">
+          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
