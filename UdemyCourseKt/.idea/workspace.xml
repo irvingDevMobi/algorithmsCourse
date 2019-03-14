@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa9b8e86-2109-46bf-9ae9-1b73a619504d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +44,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="577">
-                  <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+                <state relative-caret-position="731">
+                  <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -189,7 +187,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550761100230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550761869120" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -358,13 +356,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550071658620</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[Kotlin Project] Arrays: Find Missing element - course solutions">
+      <created>1550761120956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550761120956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PairSumTest - 2019.02.11 at 09h 00m 54s.xml">
-      <configuration name="PairSumTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PairSumTest_testSol - 2019.02.11 at 09h 32m 46s.xml">
       <configuration name="PairSumTest.testSol" configurationId="JUnit" />
     </history-entry>
@@ -391,6 +393,9 @@
     </history-entry>
     <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 29m 42s.xml">
       <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindMissingElementTest_testFinder3 - 2019.02.21 at 08h 57m 58s.xml">
+      <configuration name="FindMissingElementTest.testFinder3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -431,7 +436,8 @@
     <MESSAGE value="[Kotlin Project] Arrays: Pair Sum - my solution" />
     <MESSAGE value="[Kotlin Project] Arrays: Pair Sum - course solution" />
     <MESSAGE value="[Kotlin Project] Arrays: Find Missing element - my solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Kotlin Project] Arrays: Find Missing element - my solution" />
+    <MESSAGE value="[Kotlin Project] Arrays: Find Missing element - course solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Kotlin Project] Arrays: Find Missing element - course solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -441,36 +447,6 @@
           <line>9</line>
           <properties />
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -550,17 +526,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
     </entry>
