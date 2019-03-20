@@ -74,6 +74,46 @@ def large_cont_sum(array):
     return max_sum
 
 
+def larges_cont_sum_short(array):
+    array_size = len(array)
+    if array_size == 1:
+        return array[0]
+    new_array = []
+    sum_k = array[0]
+    sense = sum_k >= 0
+    for i in range(1, len(array)):
+        if sense == (array[i] >= 0):
+            sum_k += array[i]
+        else:
+            sense = array[i] >= 0
+            new_array.append(sum_k)
+            sum_k = array[i]
+    new_array.append(sum_k)
+
+    max_sum = 0
+    i = 0
+    while i < len(new_array):
+        if new_array[i] < 0:
+            i += 1
+            continue
+        sum_i = new_array[i]
+        pivot = i
+        while pivot + 2 < len(new_array):
+            prov_sum = sum_i + new_array[pivot + 1] + new_array[pivot + 2]
+            if prov_sum >= sum_i:
+                sum_i = prov_sum
+                pivot += 2
+            else:
+                break
+        if max_sum < sum_i:
+            max_sum = sum_i
+        i += 1
+    return max_sum
+
+
+larges_cont_sum_short([1, 2, -1, 3, 4, 10, 10, -10, -1])
+
+
 class TestLargestContinuousSum(unittest.TestCase):
 
     def test(self):
@@ -85,3 +125,15 @@ class TestLargestContinuousSum(unittest.TestCase):
         self.assertEqual(large_cont_sum([1, -1, 1, -1, 10, -5, 1, -1, 3, -1]), 10)
         print('All Test Cases passes')
 
+    def test_short(self):
+        self.assertEqual(larges_cont_sum_short([1, 2, -1, 3, 4, -1]), 9)
+        self.assertEqual(larges_cont_sum_short([1, 2, -1, 3, 4, 10, 10, -10, -1]), 29)
+        self.assertEqual(larges_cont_sum_short([-1, 1]), 1)
+        self.assertEqual(larges_cont_sum_short([-2, -3, 4, -1, -2, 1, 5, -3]), 7)
+        self.assertEqual(larges_cont_sum_short([-2, 1, -3, 4, -1, 2, 1, -5, 4]), 6)
+        self.assertEqual(larges_cont_sum_short([1, -1, 1, -1, 10, -5, 1, -1, 3, -1]), 10)
+        print('test_short pass')
+
+
+tests = TestLargestContinuousSum()
+tests.test_short()
