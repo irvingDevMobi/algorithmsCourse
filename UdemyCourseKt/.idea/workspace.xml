@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa9b8e86-2109-46bf-9ae9-1b73a619504d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UdemyCourseKt/META-INF/UdemyCourseKt.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UdemyCourseKt/META-INF/UdemyCourseKt.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +20,11 @@
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/Main.kt">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                </state>
+              </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -41,11 +48,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="530">
+                  <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -85,11 +101,23 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+                <state relative-caret-position="255">
+                  <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="245">
+                  <caret line="17" column="1" lean-forward="true" selection-end-line="17" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#21#119#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -110,9 +138,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="JUnit4 Test Class" />
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -129,6 +157,10 @@
         <option value="$PROJECT_DIR$/src/test/arrays/PairSumTest.kt" />
         <option value="$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt" />
         <option value="$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt" />
+        <option value="$PROJECT_DIR$/src/mx/irving/MainKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt" />
+        <option value="$PROJECT_DIR$/src/test/arrays/LargestContinousSumTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt" />
       </list>
     </option>
   </component>
@@ -143,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +212,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,13 +219,14 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550761869120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553217645199" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mx.irving" />
       <recent name="mx.irving.arrays" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -212,39 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindMissingElementTest.testFinder3">
-    <configuration name="FindMissingElementTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UdemyCourseKt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.FindMissingElementTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMissingElementTest.testFinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UdemyCourseKt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.FindMissingElementTest" />
-      <option name="METHOD_NAME" value="testFinder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LargestContinuousSumTest.test">
     <configuration name="FindMissingElementTest.testFinder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyCourseKt" />
       <extension name="coverage">
@@ -277,7 +278,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairSumTest.testSol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LargestContinousSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyCourseKt" />
       <extension name="coverage">
         <pattern>
@@ -286,8 +287,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.PairSumTest" />
-      <option name="METHOD_NAME" value="testSol" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.LargestContinousSumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestContinousSumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyCourseKt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.LargestContinousSumTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestContinuousSumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyCourseKt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.LargestContinuousSumTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +327,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LargestContinuousSumTest.test" />
+        <item itemvalue="JUnit.LargestContinousSumTest" />
+        <item itemvalue="JUnit.LargestContinousSumTest.test" />
         <item itemvalue="JUnit.FindMissingElementTest.testFinder3" />
         <item itemvalue="JUnit.FindMissingElementTest.testFinder2" />
-        <item itemvalue="JUnit.FindMissingElementTest.testFinder" />
-        <item itemvalue="JUnit.FindMissingElementTest.test" />
-        <item itemvalue="JUnit.PairSumTest.testSol" />
       </list>
     </recent_temporary>
   </component>
@@ -367,42 +399,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PairSumTest_testSol - 2019.02.11 at 09h 32m 46s.xml">
-      <configuration name="PairSumTest.testSol" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 18h 55m 00s.xml">
+      <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PairSumTest_testSol - 2019.02.12 at 08h 59m 51s.xml">
-      <configuration name="PairSumTest.testSol" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 18h 57m 30s.xml">
+      <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMissingElementTest_test - 2019.02.13 at 09h 27m 03s.xml">
-      <configuration name="FindMissingElementTest.test" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 19h 01m 48s.xml">
+      <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMissingElementTest_testFinder - 2019.02.19 at 08h 54m 32s.xml">
-      <configuration name="FindMissingElementTest.testFinder" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 19h 02m 07s.xml">
+      <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 18m 57s.xml">
-      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest - 2019.03.21 at 19h 11m 19s.xml">
+      <configuration name="LargestContinousSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 23m 05s.xml">
-      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest - 2019.03.21 at 19h 11m 20s.xml">
+      <configuration name="LargestContinousSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 26m 24s.xml">
-      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest - 2019.03.21 at 19h 11m 27s.xml">
+      <configuration name="LargestContinousSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 28m 53s.xml">
-      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest - 2019.03.21 at 19h 11m 30s.xml">
+      <configuration name="LargestContinousSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMissingElementTest_testFinder2 - 2019.02.19 at 09h 29m 42s.xml">
-      <configuration name="FindMissingElementTest.testFinder2" configurationId="JUnit" />
+    <history-entry file="LargestContinousSumTest - 2019.03.21 at 19h 13m 25s.xml">
+      <configuration name="LargestContinousSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindMissingElementTest_testFinder3 - 2019.02.21 at 08h 57m 58s.xml">
-      <configuration name="FindMissingElementTest.testFinder3" configurationId="JUnit" />
+    <history-entry file="LargestContinuousSumTest_test - 2019.03.21 at 19h 16m 24s.xml">
+      <configuration name="LargestContinuousSumTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1316" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27315542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2810047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,7 +443,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21673004" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21673004" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,6 +480,12 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -474,9 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/Main.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -491,6 +526,13 @@
           <folding>
             <element signature="e#26#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -528,15 +570,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt">
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/MainKtTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/MaxSumInArray (2).kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="17" column="1" lean-forward="true" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
