@@ -1,5 +1,7 @@
 package mx.irving.arrays
 
+import kotlin.math.max
+
 fun largestContinuousSum(array: Array<Int>): Int {
 
     if (array.size == 1) return array.first()
@@ -32,6 +34,17 @@ fun largestContinuousSum(array: Array<Int>): Int {
             } else break
         }
         if (maxSum < sumIterator) maxSum = sumIterator
+    }
+    return maxSum
+}
+
+fun largestContinuousSumCourse(array: Array<Int>): Int {
+    if (array.isEmpty()) return 0
+    var currentSum = array.first()
+    var maxSum = currentSum
+    for (index in 1 until array.size) {
+        currentSum = max(currentSum + array[index], array[index])
+        maxSum = max(currentSum, maxSum)
     }
     return maxSum
 }
