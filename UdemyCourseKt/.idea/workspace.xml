@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa9b8e86-2109-46bf-9ae9-1b73a619504d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UdemyCourseKt/META-INF/UdemyCourseKt.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UdemyCourseKt/META-INF/UdemyCourseKt.kotlin_module" afterDir="false" />
-    </list>
+    <list default="true" id="fa9b8e86-2109-46bf-9ae9-1b73a619504d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +17,7 @@
             <entry file="file://$PROJECT_DIR$/src/mx/irving/Main.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                  <caret line="23" selection-start-line="23" selection-end-line="23" />
                 </state>
               </provider>
             </entry>
@@ -58,8 +55,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+                <state relative-caret-position="662">
+                  <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -111,10 +108,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="1" lean-forward="true" selection-end-line="17" selection-end-column="1" />
+                <state relative-caret-position="318">
+                  <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
                   <folding>
-                    <element signature="e#21#119#0" expanded="true" />
+                    <element signature="e#21#169#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -156,9 +153,9 @@
         <option value="$PROJECT_DIR$/src/mx/irving/arrays/FindMissingElement.kt" />
         <option value="$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt" />
         <option value="$PROJECT_DIR$/src/mx/irving/MainKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt" />
         <option value="$PROJECT_DIR$/src/test/arrays/LargestContinousSumTest.kt" />
         <option value="$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt" />
+        <option value="$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt" />
       </list>
     </option>
   </component>
@@ -173,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +205,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -217,7 +214,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553217934330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553734378898" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -243,23 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LargestContinuousSumTest.test">
-    <configuration name="FindMissingElementTest.testFinder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UdemyCourseKt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.FindMissingElementTest" />
-      <option name="METHOD_NAME" value="testFinder2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LargestContinuousSumTest.testCourse">
     <configuration name="FindMissingElementTest.testFinder3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyCourseKt" />
       <extension name="coverage">
@@ -323,13 +304,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LargestContinuousSumTest.testCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyCourseKt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.LargestContinuousSumTest" />
+      <option name="METHOD_NAME" value="testCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LargestContinuousSumTest.testCourse" />
         <item itemvalue="JUnit.LargestContinuousSumTest.test" />
         <item itemvalue="JUnit.LargestContinousSumTest" />
         <item itemvalue="JUnit.LargestContinousSumTest.test" />
         <item itemvalue="JUnit.FindMissingElementTest.testFinder3" />
-        <item itemvalue="JUnit.FindMissingElementTest.testFinder2" />
       </list>
     </recent_temporary>
   </component>
@@ -400,13 +397,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553217928189</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[Kotlin Project] Arrays: Largest ContinuousSum - course solution">
+      <created>1553734372928</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1553734372928</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 18h 55m 00s.xml">
-      <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 18h 57m 30s.xml">
       <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
     </history-entry>
@@ -434,12 +435,15 @@
     <history-entry file="LargestContinuousSumTest_test - 2019.03.21 at 19h 16m 24s.xml">
       <configuration name="LargestContinuousSumTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LargestContinuousSumTest_testCourse - 2019.03.27 at 18h 51m 27s.xml">
+      <configuration name="LargestContinuousSumTest.testCourse" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1316" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2810047" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28492936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,7 +479,8 @@
     <MESSAGE value="[Kotlin Project] Arrays: Find Missing element - my solution" />
     <MESSAGE value="[Kotlin Project] Arrays: Find Missing element - course solutions" />
     <MESSAGE value="[Kotlin Project] Arrays: Largest ContinuousSum - my solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Kotlin Project] Arrays: Largest ContinuousSum - my solution" />
+    <MESSAGE value="[Kotlin Project] Arrays: Largest ContinuousSum - course solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Kotlin Project] Arrays: Largest ContinuousSum - course solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,7 +493,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt</url>
-          <line>21</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -515,6 +520,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="461" column="24" selection-start-line="461" selection-start-column="24" selection-end-line="461" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/MainKtTest.java" />
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/MaxSumInArray (2).kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -567,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/arrays/PairSumTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/arrays/FindMissingElementTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -581,35 +592,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/MainKtTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/arrays/PairSumTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/MaxSumInArray (2).kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="true" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="318">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <element signature="e#21#119#0" expanded="true" />
+            <element signature="e#21#169#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="662">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
