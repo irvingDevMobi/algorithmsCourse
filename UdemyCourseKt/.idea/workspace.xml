@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa9b8e86-2109-46bf-9ae9-1b73a619504d" name="Default Changelist" comment="" />
+    <list default="true" id="fa9b8e86-2109-46bf-9ae9-1b73a619504d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/arrays/SentenceReversalTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +56,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="662">
-                  <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+                <state relative-caret-position="203">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/arrays/SentenceReversalTest.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                  <folding>
+                    <element signature="e#21#114#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -105,14 +121,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+                <state relative-caret-position="92">
+                  <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
                   <folding>
-                    <element signature="e#21#169#0" expanded="true" />
+                    <element signature="e#21#170#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
                 </state>
               </provider>
             </entry>
@@ -133,8 +158,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -156,6 +181,8 @@
         <option value="$PROJECT_DIR$/src/test/arrays/LargestContinousSumTest.kt" />
         <option value="$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt" />
         <option value="$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt" />
+        <option value="$PROJECT_DIR$/src/test/arrays/SentenceReversalTest.kt" />
+        <option value="$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt" />
       </list>
     </option>
   </component>
@@ -205,8 +232,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +241,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553734378898" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553821772356" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -240,23 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LargestContinuousSumTest.testCourse">
-    <configuration name="FindMissingElementTest.testFinder3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UdemyCourseKt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.FindMissingElementTest" />
-      <option name="METHOD_NAME" value="testFinder3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SentenceReversalTest.test">
     <configuration name="LargestContinousSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyCourseKt" />
       <extension name="coverage">
@@ -320,13 +331,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentenceReversalTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyCourseKt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.arrays.SentenceReversalTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SentenceReversalTest.test" />
         <item itemvalue="JUnit.LargestContinuousSumTest.testCourse" />
         <item itemvalue="JUnit.LargestContinuousSumTest.test" />
         <item itemvalue="JUnit.LargestContinousSumTest" />
         <item itemvalue="JUnit.LargestContinousSumTest.test" />
-        <item itemvalue="JUnit.FindMissingElementTest.testFinder3" />
       </list>
     </recent_temporary>
   </component>
@@ -408,21 +435,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 18h 57m 30s.xml">
-      <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 19h 01m 48s.xml">
-      <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestContinousSumTest_test - 2019.03.21 at 19h 02m 07s.xml">
-      <configuration name="LargestContinousSumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestContinousSumTest - 2019.03.21 at 19h 11m 19s.xml">
-      <configuration name="LargestContinousSumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestContinousSumTest - 2019.03.21 at 19h 11m 20s.xml">
-      <configuration name="LargestContinousSumTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LargestContinousSumTest - 2019.03.21 at 19h 11m 27s.xml">
       <configuration name="LargestContinousSumTest" configurationId="JUnit" />
     </history-entry>
@@ -438,12 +450,26 @@
     <history-entry file="LargestContinuousSumTest_testCourse - 2019.03.27 at 18h 51m 27s.xml">
       <configuration name="LargestContinuousSumTest.testCourse" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SentenceReversalTest_test - 2019.03.28 at 18h 59m 29s.xml">
+      <configuration name="SentenceReversalTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SentenceReversalTest_test - 2019.03.28 at 19h 02m 06s.xml">
+      <configuration name="SentenceReversalTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SentenceReversalTest_test - 2019.03.28 at 19h 04m 13s.xml">
+      <configuration name="SentenceReversalTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SentenceReversalTest_test - 2019.03.28 at 19h 06m 11s.xml">
+      <configuration name="SentenceReversalTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SentenceReversalTest_test - 2019.03.28 at 19h 06m 21s.xml">
+      <configuration name="SentenceReversalTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1316" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28492936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.288854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -453,7 +479,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21673004" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -496,6 +522,12 @@
           <line>23</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -599,20 +631,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/arrays/LargestContinuousSumTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="92">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <element signature="e#21#169#0" expanded="true" />
+            <element signature="e#21#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/LargestContinuousSum.kt">
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/arrays/SentenceReversalTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#21#114#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
