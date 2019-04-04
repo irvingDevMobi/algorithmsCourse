@@ -10,3 +10,20 @@ fun reverseSentence(sentence: String): String {
     }
     return reversedSentence.toString()
 }
+
+fun reverseManually(sentence: String): String {
+    var sentenceReverse = ""
+    var wordIt = ""
+    for (index in sentence.length - 1 downTo 0) {
+        if (sentence[index] == ' ' && wordIt.isNotEmpty()) {
+            sentenceReverse = if (sentenceReverse.isEmpty()) wordIt else "$sentenceReverse $wordIt"
+            wordIt = ""
+        } else if (sentence[index] != ' ') {
+            wordIt = sentence[index] + wordIt
+        }
+    }
+    if (wordIt.isNotBlank()) {
+        sentenceReverse = if (sentenceReverse.isEmpty()) wordIt else "$sentenceReverse $wordIt"
+    }
+    return sentenceReverse
+}
