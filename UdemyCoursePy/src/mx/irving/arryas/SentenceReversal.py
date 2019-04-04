@@ -32,6 +32,26 @@ def reverse_manually(sentence):
     return reversed_words
 
 
+def reverse_manually_2(sentence):
+    sentence_reversed = ""
+    word = ""
+    for index in range(len(sentence) - 1, -1, -1):
+        if sentence[index] == ' ' and len(word) > 0:
+            if len(sentence_reversed) > 0:
+                sentence_reversed = sentence_reversed + ' ' + word
+            else:
+                sentence_reversed = word
+            word = ""
+        elif sentence[index] != ' ':
+            word = sentence[index] + word
+    if len(word) > 0:
+        if len(sentence_reversed) > 0:
+            sentence_reversed = sentence_reversed + ' ' + word
+        else:
+            sentence_reversed = word
+    return sentence_reversed
+
+
 class ReverseSentenceTest(unittest.TestCase):
 
     def test(self):
@@ -45,3 +65,9 @@ class ReverseSentenceTest(unittest.TestCase):
         self.assertEqual('after space', reverse_manually('space after     '))
         self.assertEqual('you are how John Hello', reverse_manually('   Hello John    how are you   '))
         self.assertEqual('1', reverse_manually('1'))
+
+    def test_manually_2(self):
+        self.assertEqual('before space', reverse_manually_2('     space before'))
+        self.assertEqual('after space', reverse_manually_2('space after     '))
+        self.assertEqual('you are how John Hello', reverse_manually_2('   Hello John    how are you   '))
+        self.assertEqual('1', reverse_manually_2('1'))
