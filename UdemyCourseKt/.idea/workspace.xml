@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa9b8e86-2109-46bf-9ae9-1b73a619504d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mx/irving/arrays/StringCompression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/arrays/StringCompressionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/irving/arrays/UniqueCharacters.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UdemyCourseKt/META-INF/UdemyCourseKt.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UdemyCourseKt/META-INF/UdemyCourseKt.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,18 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.6174905">
+    <splitter split-orientation="vertical" split-proportion="0.6228137">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mx/irving/Main.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="23" selection-start-line="23" selection-end-line="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
@@ -42,6 +33,27 @@
                   <caret line="28" selection-start-line="28" selection-end-line="28" />
                   <folding>
                     <element signature="e#26#71#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/StringCompression.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/UniqueCharacters.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#26#79#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -65,7 +77,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/arrays/SentenceReversalTest.kt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="408">
@@ -136,8 +148,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/arrays/StringCompressionTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="77">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
                   <folding>
                     <element signature="e#21#107#0" expanded="true" />
                   </folding>
@@ -148,17 +160,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="303">
+                <state relative-caret-position="425">
                   <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/StringCompression.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -189,8 +192,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -215,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt" />
         <option value="$PROJECT_DIR$/src/mx/irving/arrays/StringCompression.kt" />
         <option value="$PROJECT_DIR$/src/test/arrays/StringCompressionTest.kt" />
+        <option value="$PROJECT_DIR$/src/mx/irving/arrays/UniqueCharacters.kt" />
       </list>
     </option>
   </component>
@@ -273,7 +277,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554396935085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554944596038" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -299,39 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCompressionTest.tes">
-    <configuration name="LargestContinuousSumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UdemyCourseKt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.LargestContinuousSumTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestContinuousSumTest.testCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UdemyCourseKt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.arrays" />
-      <option name="MAIN_CLASS_NAME" value="test.arrays.LargestContinuousSumTest" />
-      <option name="METHOD_NAME" value="testCourse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UniqueCharactersTest.test">
     <configuration name="SentenceReversalTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UdemyCourseKt" />
       <extension name="coverage">
@@ -380,13 +352,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueCharactersKt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyCourseKt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.irving.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.irving.arrays" />
+      <option name="MAIN_CLASS_NAME" value="mx.irving.arrays.UniqueCharactersKt" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueCharactersTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UdemyCourseKt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.irving.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.irving.arrays" />
+      <option name="MAIN_CLASS_NAME" value="mx.irving.arrays.UniqueCharactersTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UniqueCharactersTest.test" />
+        <item itemvalue="JUnit.UniqueCharactersKt" />
         <item itemvalue="JUnit.StringCompressionTest.tes" />
         <item itemvalue="JUnit.SentenceReversalTest.testManually" />
         <item itemvalue="JUnit.SentenceReversalTest.test" />
-        <item itemvalue="JUnit.LargestContinuousSumTest.testCourse" />
-        <item itemvalue="JUnit.LargestContinuousSumTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -478,16 +481,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554339630193</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[Kotlin Project] Arrays: String Compression - my solution">
+      <created>1554397068195</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554397068195</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SentenceReversalTest_test - 2019.03.28 at 19h 04m 13s.xml">
-      <configuration name="SentenceReversalTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SentenceReversalTest_test - 2019.03.28 at 19h 06m 11s.xml">
-      <configuration name="SentenceReversalTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SentenceReversalTest_test - 2019.03.28 at 19h 06m 21s.xml">
       <configuration name="SentenceReversalTest.test" configurationId="JUnit" />
     </history-entry>
@@ -512,12 +516,18 @@
     <history-entry file="SentenceReversalTest_testManually - 2019.04.03 at 18h 59m 41s.xml">
       <configuration name="SentenceReversalTest.testManually" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringCompressionTest_tes - 2019.04.04 at 10h 55m 39s.xml">
+      <configuration name="StringCompressionTest.tes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UniqueCharactersKt - 2019.04.08 at 19h 17m 06s.xml">
+      <configuration name="UniqueCharactersKt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="33" width="1330" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20885094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21195652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -526,7 +536,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21673004" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21673004" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,7 +566,8 @@
     <MESSAGE value="[Kotlin Project] Arrays: Largest ContinuousSum - course solution" />
     <MESSAGE value="[Kotlin Project] Arrays: Sentence Reversal - my solution" />
     <MESSAGE value="[Kotlin Project] Arrays: Sentence Reversal - my solution 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Kotlin Project] Arrays: Sentence Reversal - my solution 2" />
+    <MESSAGE value="[Kotlin Project] Arrays: String Compression - my solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Kotlin Project] Arrays: String Compression - my solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/arrays/SentenceReversalTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -722,19 +726,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/SentenceReversal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/StringCompression.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/arrays/StringCompressionTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#21#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mx/irving/arrays/UniqueCharacters.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#26#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
