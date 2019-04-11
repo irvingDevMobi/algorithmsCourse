@@ -12,6 +12,10 @@ def uniques_charts(sentence):
     return True
 
 
+def uniques_charts_magic(sentence):
+    return len(set(sentence)) == len(sentence)
+
+
 class UniquesChartsTest(unittest.TestCase):
 
     def test(self):
@@ -19,3 +23,9 @@ class UniquesChartsTest(unittest.TestCase):
         self.assertEqual(uniques_charts('goo'), False)
         self.assertEqual(uniques_charts('abcdefg'), True)
         print('ALL TEST CASES PASSED')
+
+    def testMagic(self):
+        self.assertEqual(uniques_charts_magic(''), True)
+        self.assertEqual(uniques_charts_magic('goo'), False)
+        self.assertEqual(uniques_charts_magic('abcdefg'), True)
+        print('ALL MAGIC TEST CASES PASSED')
