@@ -1,4 +1,4 @@
-package mx.irving.queuesandstacks
+package mx.irving.stacksandqueues
 
 class Stack {
     var data = mutableListOf<Any>()

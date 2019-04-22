@@ -1,4 +1,4 @@
-package mx.irving.queuesandstacks
+package mx.irving.stacksandqueues
 
 fun checkParentheses(input: String): Boolean {
 	val stack = mutableListOf<Char>()

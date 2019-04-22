@@ -1,4 +1,5 @@
-import mx.irving.queuesandstacks.checkParentheses
+package mx.irving.stacksandqueues
+
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

@@ -1,9 +1,7 @@
-package test.arrays
+package mx.irving.arrays
 
-import mx.irving.arrays.reverseManually
-import mx.irving.arrays.reverseSentence
+import org.junit.Assert.assertEquals
 import org.junit.Test
-import kotlin.test.assertEquals
 
 class SentenceReversalTest {
 

@@ -1,8 +1,7 @@
-package test.arrays
+package mx.irving.arrays
 
-import mx.irving.arrays.compress
+import org.junit.Assert.assertEquals
 import org.junit.Test
-import kotlin.test.assertEquals
 
 class StringCompressionTest {
 

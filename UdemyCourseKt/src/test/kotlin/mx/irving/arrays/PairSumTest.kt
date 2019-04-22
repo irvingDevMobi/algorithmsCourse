@@ -1,7 +1,5 @@
-package test.arrays
+package mx.irving.arrays
 
-import mx.irving.arrays.pairSum
-import mx.irving.arrays.pairSumSol
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

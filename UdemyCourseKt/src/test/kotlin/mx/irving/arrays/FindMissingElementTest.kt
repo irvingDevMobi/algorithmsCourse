@@ -1,11 +1,7 @@
-package test.arrays
+package mx.irving.arrays
 
-import mx.irving.arrays.find
-import mx.irving.arrays.finder
-import mx.irving.arrays.finder2
-import mx.irving.arrays.finder3
+import org.junit.Assert.assertEquals
 import org.junit.Test
-import kotlin.test.assertEquals
 
 class FindMissingElementTest {
 
