@@ -4,6 +4,8 @@ opens = ['(', '[', '{']
 
 
 def balance_check(parentheses):
+    if len(parentheses) % 2 != 0:
+        return False
     stack = []
     for char in parentheses:
         if char in opens:
@@ -43,11 +45,15 @@ class ParenthesesCheckTest(unittest.TestCase):
     def test(self):
         self.assertEqual(balance_check('[](){([[[]]])}('), False)
         self.assertEqual(balance_check('[{{{(())}}}]((()))'), True)
+        self.assertEqual(balance_check('[{{{(())}}}]((()))[{{{(())}}}]((()))[{{{(())}}}]((()))[{{{(())}}}]((()))'),
+                         True)
         self.assertEqual(balance_check('[[[]])]'), False)
         print('ALL TEST CASES PASSED')
 
     def test_u(self):
         self.assertEqual(balance_check_u('[](){([[[]]])}('), False)
         self.assertEqual(balance_check_u('[{{{(())}}}]((()))'), True)
+        self.assertEqual(balance_check_u('[{{{(())}}}]((()))[{{{(())}}}]((()))[{{{(())}}}]((()))[{{{(())}}}]((()))'),
+                         True)
         self.assertEqual(balance_check_u('[[[]])]'), False)
         print('ALL TEST CASES PASSED')
