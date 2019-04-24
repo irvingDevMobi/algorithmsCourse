@@ -15,9 +15,9 @@ fun checkParentheses(input: String): Boolean {
 				}
 			']' -> {
 					val top = stack.removeAt(stack.size -1)
-					if (top != '(') return false
+					if (top != '[') return false
 				}
 		}
 	}
-	return true
+	return stack.isEmpty()
 }
