@@ -1,8 +1,8 @@
 package mx.irving.stacksandqueues
 
 class Queue2Stacks(
-    val stack1: MutableList<Any> = mutableListOf(),
-    val stack2: MutableList<Any> = mutableListOf()
+    private val stack1: MutableList<Any> = mutableListOf(),
+    private val stack2: MutableList<Any> = mutableListOf()
 ) {
 
     fun queue(element: Any) {
