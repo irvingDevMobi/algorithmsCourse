@@ -29,9 +29,26 @@ def check_if_list_is_circle(node):
     return False
 
 
+def is_list_cycle(node):
+    marker1 = node
+    marker2 = node
+    while marker2 is not None and marker2.next is not None:
+        marker1 = marker1.next
+        marker2 = marker2.next.next
+
+        if marker2 == marker1:
+            return True
+    return False
+
+
 class ListCycleTest(unittest.TestCase):
 
     def test(self):
         self.assertFalse(check_if_list_is_circle(a))
         self.assertTrue(check_if_list_is_circle(x))
         self.assertTrue(check_if_list_is_circle(i))
+
+    def test_ude_sol(self):
+        self.assertFalse(is_list_cycle(a))
+        self.assertTrue(is_list_cycle(x))
+        self.assertTrue(is_list_cycle(i))
