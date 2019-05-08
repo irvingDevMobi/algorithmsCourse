@@ -8,3 +8,14 @@ fun isACircleList(node: Node): Boolean {
     }
     return false
 }
+
+fun isACircleListUde(node: Node?): Boolean {
+    var marker1: Node? = node
+    var marker2: Node? = node
+    while (marker2?.nextNode != null) {
+        marker1 = marker1?.nextNode
+        marker2 = marker2.nextNode?.nextNode
+        if (marker2 == marker1) return true
+    }
+    return false
+}
