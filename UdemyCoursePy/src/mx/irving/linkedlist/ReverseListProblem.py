@@ -48,3 +48,31 @@ class ReverseListTest(unittest.TestCase):
         self.assertEqual(c.next, b)
         self.assertEqual(b.next, a)
         self.assertEqual(a.next, d)
+
+    def test_one_element_list(self):
+        a = Node(0)
+        reverse_linked_list(a)
+        self.assertEqual(a.next, None)
+
+    def test_one_element_cycle_list(self):
+        a = Node(0)
+        a.next = a
+        reverse_linked_list(a)
+        self.assertEqual(a.next, a)
+
+    def test_two_elements_list(self):
+        a = Node(1)
+        b = Node(2)
+        a.next = b
+        reverse_linked_list(a)
+        self.assertEqual(b.next, a)
+        self.assertEqual(a.next, None)
+
+    def test_two_elements_cycle_list(self):
+        a = Node(1)
+        b = Node(2)
+        a.next = b
+        b.next = a
+        reverse_linked_list(a)
+        self.assertEqual(b.next, a)
+        self.assertEqual(a.next, b)
