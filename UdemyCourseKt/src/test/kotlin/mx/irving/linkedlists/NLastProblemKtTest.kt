@@ -34,4 +34,9 @@ class NLastProblemKtTest {
     fun test_allToLast() {
         assertEquals(a, nToLast(5, a))
     }
+
+    @Test
+    fun test_nLargerThanListSize() {
+        assertNull(nToLast(6, a))
+    }
 }

@@ -6,7 +6,9 @@ fun nToLast(n: Int, head: Node): Node? {
     var pivot: Node? = head
     var searcher: Node? = head
     while (count < n) {
-        pivot = pivot?.nextNode
+        if (pivot?.nextNode == null)
+            return null
+        pivot = pivot.nextNode
         count += 1
     }
     while (pivot?.nextNode != null) {
