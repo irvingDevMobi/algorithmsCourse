@@ -10,6 +10,8 @@ def n_to_last(n, head):
     pivot = head
     searcher = head
     while count < n:
+        if pivot.next is None:
+            return None
         pivot = pivot.next
         count += 1
     while pivot.next is not None:
@@ -39,3 +41,6 @@ class NToLastTest(unittest.TestCase):
 
     def test_allToLast(self):
         self.assertEqual(a, n_to_last(5, a))
+
+    def test_nLargerThanList(self):
+        self.assertIsNone(n_to_last(6, a))
