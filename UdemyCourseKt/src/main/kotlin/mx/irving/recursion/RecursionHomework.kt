@@ -14,22 +14,15 @@ fun recWordSplit(
     output: ArrayList<String> = arrayListOf()
 ): List<String> {
     if (phrase.isBlank()) return output
-    var founded = false
-    var newPhrase = phrase
     for (i in 0 until wordLists.size) {
         val word = wordLists[i]
         if (phrase.startsWith(word)) {
             output.add(word)
             wordLists.remove(word)
-            newPhrase = if (phrase.length > word.length) phrase.substring(word.length) else ""
-            founded = true
-            break
+            val newPhrase = if (phrase.length > word.length) phrase.substring(word.length) else ""
+            return recWordSplit(newPhrase, wordLists, output)
         }
     }
-    return if (founded) {
-        recWordSplit(newPhrase, wordLists, output)
-    } else {
-        output.clear()
-        recWordSplit("", arrayListOf(), output)
-    }
+    output.clear()
+    return recWordSplit("", arrayListOf(), output)
 }
