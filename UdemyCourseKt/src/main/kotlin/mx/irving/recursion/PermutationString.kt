@@ -59,13 +59,59 @@ fun permutationPrint(
     }
 }
 
+/**
+ * Udemy course solution
+ */
+fun permute(sentence: String): List<String> {
+    var output = arrayListOf<String>()
+
+    // Base case
+    if (sentence.length == 1) output = arrayListOf(sentence)
+    else {
+        for ((index, symbol) in sentence.withIndex()) {
+            for (perm in permute(sentence.substring(0, index) + sentence.substring(index + 1))) {
+                output.add(symbol + perm)
+            }
+        }
+    }
+    return output
+}
+
+fun permutePrint(sentence: String, tabs: Tabs = Tabs()): List<String> {
+    println("${tabs.value}input: $sentence")
+    var output = arrayListOf<String>()
+
+    // Base case
+    if (sentence.length == 1) {
+        println("${tabs.value}add: $sentence")
+        output = arrayListOf(sentence)
+    } else {
+        //tabs.add()
+        for ((index, symbol) in sentence.withIndex()) {
+            println("${tabs.value}1ª for -> index: $index - Symbol: $symbol")
+            tabs.add()
+            for (perm in permutePrint(sentence.substring(0, index) + sentence.substring(index + 1), tabs)) {
+                println("${tabs.value}2º for-> add: $symbol + $perm")
+                output.add(symbol + perm)
+            }
+            tabs.remove()
+        }
+        //tabs.remove()
+    }
+    println("${tabs.value}Outputs: ")
+    for (item in output) println("${tabs.value}$item")
+    return output
+}
+
 
 fun main() {
-    val sentence = "abc"
-    val permutations = arrayListOf<String>()
+    val sentence = "abcd"
+    /*val permutations = arrayListOf<String>()
     permutationPrint(sentence.toCharArray(), sentence.length, permutations)
     println("****************")
     println("****************")
     println("****************")
-    for ((index, combination) in permutations.withIndex()) println("${index + 1} $combination")
+    for ((index, combination) in permutations.withIndex()) println("${index + 1} $combination")*/
+    val permutations = permutePrint(sentence)
+    //for (combination in permutations) println(combination)
 }
