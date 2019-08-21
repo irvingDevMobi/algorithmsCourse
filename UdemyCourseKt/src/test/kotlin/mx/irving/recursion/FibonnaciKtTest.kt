@@ -34,4 +34,14 @@ class FibonnaciKtTest {
         assertEquals(1346269, fibonnaciIterative(31))
         assertEquals(165580141, fibonnaciIterative(41))
     }
+
+    @Test
+    fun fibonnaciIterativeCourse_ok() {
+        assertEquals(1, fibonnaciIterativeCourse(1))
+        assertEquals(1, fibonnaciIterativeCourse(2))
+        assertEquals(55, fibonnaciIterativeCourse(10))
+        assertEquals(28657, fibonnaciIterativeCourse(23))
+        assertEquals(1346269, fibonnaciIterativeCourse(31))
+        assertEquals(165580141, fibonnaciIterativeCourse(41))
+    }
 }

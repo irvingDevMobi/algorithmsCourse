@@ -51,3 +51,15 @@ fun fibonnaciIterative(num: Int): Long {
     }
     return result
 }
+
+fun fibonnaciIterativeCourse(num: Int): Long {
+    var a = 0L
+    var b = 1L
+    var piv: Long
+    for (i in 1..num) {
+        piv = a
+        a = b
+        b += piv
+    }
+    return a
+}
