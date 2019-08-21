@@ -1,7 +1,6 @@
 package mx.irving.recursion
 
 fun fibonnaci(num: Int): Long {
-    //println("Fibonnaci of $num")
     return when {
         num < 1 -> 0
         num == 1 -> 1
@@ -37,4 +36,18 @@ fun fibonnaciDynamic(num: Int): Long {
             fibonnaciOneBack + fibonnaciTwoBack
         }
     }
+}
+
+fun fibonnaciIterative(num: Int): Long {
+    if (num < 1) return 0
+    if (num == 1) return 1
+    var sumTwoBack = 0L
+    var sumOneBack = 1L
+    var result = 0L
+    for (i in 2..num) {
+        result = sumOneBack + sumTwoBack
+        sumTwoBack = sumOneBack
+        sumOneBack = result
+    }
+    return result
 }
